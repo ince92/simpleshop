@@ -1,4 +1,4 @@
-package com.shvr.simpleshop.item.contarctor;
+package com.shvr.simpleshop.contarctor;
 
 public class Contractor {
     private String name;
