@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Order {
     private LocalDateTime date;
-    private int number;
+    private long Id;
     private List<OrderLine> orderLines;
 
 
