@@ -4,11 +4,11 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
 
     <changeSet author="Author1" id="2024-04-23-create-table-contractor">
-        <createTable tableName="Contractor">
-            <column name="ID" type="int">
+        <createTable tableName="CUSTOMERS">
+            <column name="CUSTOMER_ID" type="INT">
                 <constraints nullable="false" primaryKey="true"/>
             </column>
-            <column name="NAME" type="VARCHAR(100)">
+            <column name="CUSTOMER_NAME" type="VARCHAR(100)">
                 <constraints nullable="false"/>
             </column>
         </createTable>
