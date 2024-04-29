@@ -1,12 +1,13 @@
-package com.shvr.items;
+package com.shvr.apigateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+public class ApiGatewayApplication {
 
-public class ItemsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ItemsApplication.class, args);
+        SpringApplication.run(ApiGatewayApplication.class, args);
     }
+
 }
